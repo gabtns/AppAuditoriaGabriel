@@ -1,0 +1,24 @@
+name: molienda_app
+description: Registro de procesos de molienda (móvil + Windows)
+publish_to: 'none'
+version: 1.1.0+2
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  supabase_flutter: ^2.8.0
+  flutter_secure_storage: ^9.2.2
+  mobile_scanner: ^5.2.3
+  hive_flutter: ^1.1.0
+  connectivity_plus: ^6.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
